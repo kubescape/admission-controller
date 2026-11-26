@@ -1,3 +1,5 @@
+> **Archived:** This repository is archived and no longer maintained. For Kubernetes admission enforcement with Kubescape policies, use Kubernetes ValidatingAdmissionPolicy with [kubescape/cel-admission-library](https://github.com/kubescape/cel-admission-library).
+
 # Admission Controller
 In Kubernetes, an admission controller is a crucial component of the admission control mechanism, responsible for intercepting and validating API requests before they are persisted and acted upon by the Kubernetes API server. These controllers are webhook plugins that can be configured to enforce custom rules, policies, and constraints on the cluster's resources. Admission controllers play a vital role in enhancing the security, compliance, and governance of Kubernetes clusters. They help prevent unauthorized or invalid operations from being executed, ensuring that only valid and permitted requests are allowed to modify the cluster's state. By utilizing admission controllers, administrators can enforce policies tailored to their specific requirements, promoting a more robust and controlled Kubernetes environment.
 
